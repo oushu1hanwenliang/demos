@@ -10,8 +10,6 @@ func main() {
 	fmt.Println("word")
 	fmt.Println("word")
 	fmt.Println("word")
-	fmt.Println("word")
-	fmt.Println("word")
-	fmt.Println("word")
+
 	fmt.Println("word")
 }
