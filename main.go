@@ -17,6 +17,7 @@ func main() {
 }
 
 func createTestDir(fs *gowfs.FileSystem, hdfsPath string) {
+	path := gowfs.Path{Name: hdfsPath}
 }
 func createTestDi(fs *gowfs.FileSystem, hdfsPath string) {
 	path := gowfs.Path{Name: hdfsPath}
@@ -34,4 +35,14 @@ if __name__ == '__main__':
 
 if __name__ == '__main__':
     # unittest.main()
+    runner.run(suite)
+if __name__ == '__main__':
+    # 单个执行测试用例
+    suite.addTest(HdfsApp('test_file_status'))
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
+if __name__ == '__main__':
+    # 单个执行测试用例
+    suite.addTest(HdfsApp('test_file_status'))
+    runner = unittest.TextTestRunner()
     runner.run(suite)
