@@ -46,3 +46,15 @@ if __name__ == '__main__':
     suite.addTest(HdfsApp('test_file_status'))
     runner = unittest.TextTestRunner()
     runner.run(suite)
+	# 单个执行测试用例
+    suite.addTest(HdfsApp('test_file_status'))
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
+	# 单个执行测试用例
+    suite.addTest(HdfsApp('test_file_status'))
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
+	# 单个执行测试用例
+    suite.addTest(HdfsApp('test_file_status'))
+    runner = unittest.TextTestRunner()
+    runner.run(suite)
