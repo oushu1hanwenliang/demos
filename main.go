@@ -7,7 +7,15 @@ import (
 )
 
 func main() {
+	//
+	//
+	//
+	//
+	//
+	//
 	return
+	//	//	//
+	//
 }
 
 func createTestDir(fs *gowfs.FileSystem, hdfsPath string) {
